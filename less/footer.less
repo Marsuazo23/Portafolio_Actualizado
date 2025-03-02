@@ -1,0 +1,16 @@
+footer {
+    background-color: @primary-color;
+    padding: 2rem;
+    text-align: center;
+    margin-top: auto; // Empuja el footer hacia la parte inferior
+
+    p {
+        font-size: 1.2rem;
+        color: @primary-text-color;
+        margin: 0;
+
+        @media (min-width: #breaks[tablet]) {
+            font-size: 1.5rem;
+        }
+    }
+}
