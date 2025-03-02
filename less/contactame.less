@@ -7,40 +7,24 @@
         font-weight: bold;
         text-decoration: underline;
         color: @primary-text-color;
-
-        @media (min-width: #breaks[tablet]) {
-            font-size: 2.5rem;
-        }
     }
 }
 
 .panel-texto2 {
     text-align: center;
-    margin: 2rem auto;
+    margin: 2rem auto 0;
     max-width: 80%;
     font-size: 1.3rem;
     color: @primary-text-color;
     line-height: 2.5;
-    margin-top: 0rem;
-
-    p {
-        font-size: 1.3rem;
-        line-height: 2.5;
-        color: @primary-text-color;
-
-        @media (min-width: #breaks[tablet]) {
-            font-size: 1.8rem;
-            line-height: 2.5;
-        }
-    }
 }
+
 
 .btn-enviar {
     background-color: @primary-color; 
     color: @primary-text-color;
     padding: 0.75rem 1.5rem;
     font-size: 1rem;
-    border: none;
     border-radius: 10px;
     cursor: pointer;
     width: 100%;
@@ -57,7 +41,7 @@
     position: relative;
     top: 50%;
     left: 50%;
-    transform: translateX(-50%) translateY(-0%);
+    transform: translateX(-50%);
     color: @primary-text-color;
     line-height: 1;
     font-weight: normal;
